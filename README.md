@@ -1,3 +1,3 @@
 # Code
 
-First dev on github
+First code on github
