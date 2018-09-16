@@ -1,3 +1,3 @@
 # Code
 
-First test code on github
+First code on github
