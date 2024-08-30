@@ -17,4 +17,5 @@ class Deck:
         return self._cards[position]
 
 deck=Deck()
+
 print(choice(deck))
