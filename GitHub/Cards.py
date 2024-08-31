@@ -1,5 +1,5 @@
 import collections
-from random import choice
+from random import choice,shuffle
 
 Card=collections.namedtuple('Card',['rank','suit'])
 
@@ -16,6 +16,11 @@ class Deck:
     def __getitem__(self,position):
         return self._cards[position]
 
+    def __setitem__(self,position,value):
+        self._cards[position]=value
+
 deck=Deck()
 
-print(choice(deck))
+print(deck[1])
+shuffle(deck)
+print(deck[1])
