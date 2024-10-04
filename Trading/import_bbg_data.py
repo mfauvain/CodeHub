@@ -161,4 +161,3 @@ datadf.to_sql('data', engine, if_exists='append', chunksize=1000, index=False)
 print("Data inserted. total time: %s" % time.strftime("%H:%M:%S", time.gmtime(time.time()-time_start)))
 engine.dispose()
 conbbg.stop()
-#test
