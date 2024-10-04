@@ -23,4 +23,4 @@ deck=Deck()
 
 print(deck[1])
 shuffle(deck)
-print(deck[1])
+print(deck[2])
